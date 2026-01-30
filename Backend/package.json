@@ -1,0 +1,27 @@
+{
+  "name": "to-do-web-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/satendra27/To-Do-Web-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/satendra27/To-Do-Web-App/issues"
+  },
+  "homepage": "https://github.com/satendra27/To-Do-Web-App#readme",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.3",
+    "nodemon": "^3.1.11",
+    "react-hot-toast": "^2.6.0",
+    "react-router-dom": "^7.13.0"
+  }
+}
