@@ -74,11 +74,11 @@ GitHub Repository: https://github.com/satendra27/To-Do-Web-App.git
 
 ## 📸 Snapshots
 
-### Login Page
-![Login Page](snapshots/login.png)
-
 ### Register Page
 ![Register Page](snapshots/register.png)
+
+### Login Page
+![Login Page](snapshots/login.png)
 
 ### Dashboard
 ![Dashboard](snapshots/dashboard.png)
