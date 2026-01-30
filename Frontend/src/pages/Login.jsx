@@ -20,6 +20,7 @@ export default function Login() {
       const res = await API.post("/auth/login", formData);
       localStorage.setItem("token", res.data.token);
     //   console.log(res.data.user.name)
+    localStorage.setItem("username",res.data.user.name)
       toast.success(`Welcom ${res.data.user.name}`)
       navigate("/dashboard");
     } catch (error) {

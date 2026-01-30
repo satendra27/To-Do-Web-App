@@ -5,14 +5,13 @@ import { MdDashboard } from "react-icons/md";
 
 export default function Navbar() {
   const navigate = useNavigate();
-  const user = JSON.parse(localStorage.getItem("user"));
+  const user = localStorage.getItem("username");
 
   const handleLogout = () => {
     localStorage.clear();
     toast.success("Logged out successfully");
     navigate("/login");
   };
-
   return (
     <nav className="bg-white shadow px-8 py-4 flex justify-between items-center">
      <h1
@@ -24,7 +23,7 @@ export default function Navbar() {
 
       <div className="flex items-center gap-4">
         <span className="text-gray-600">
-          👋 Hi, <strong>{user?.name}</strong>
+          👋 Hi, <strong>{user}</strong>
         </span>
         <button
   onClick={handleLogout}
