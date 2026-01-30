@@ -72,11 +72,16 @@ http://localhost:5173
 
 GitHub Repository: https://github.com/satendra27/To-Do-Web-App.git
 
-Snapshots:
-Login Page: snapshots/login.png
+## 📸 Snapshots
 
-Register Page: snapshots/register.png
+### Login Page
+![Login Page](snapshots/login.png)
 
-Dashboard: snapshots/dashboard.png
+### Register Page
+![Register Page](snapshots/register.png)
 
-Board Todos: snapshots/todos.png
+### Dashboard
+![Dashboard](snapshots/dashboard.png)
+
+### Board Todos
+![Board Todos](snapshots/todos.png)
